@@ -21,7 +21,7 @@ public class VeicoloFactory {
 		//Creo l’oggetto specifico in base al tipo
 		if (tipoVeicolo.equalsIgnoreCase("AEREO")) {
 			System.out.println("L'aereo è di linea? (true/false):");
-			boolean diLinea = Boolean.parseBoolean(sc.nextLine()); // meglio usare InputUtility.leggiBoolean()
+			boolean diLinea = Boolean.parseBoolean(sc.nextLine()); // meglio usare Controller.leggiBoolean()
 			return new Aereo(modello, velocita, diLinea);
 		} else { // tipo TRENO
 			System.out.println("Il treno è regionale? (true/false):");
