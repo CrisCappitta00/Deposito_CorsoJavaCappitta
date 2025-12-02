@@ -23,7 +23,7 @@ public abstract class Veicolo {
 	}
 	@Override
 	public String toString() {
-		return "Veicolo: modello: " + modello + ", velocita: " + velocita;
+		return " Veicolo: modello: " + modello + ", velocita: " + velocita;
 	}
 	
 }

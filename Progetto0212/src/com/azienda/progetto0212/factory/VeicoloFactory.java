@@ -17,7 +17,6 @@ public class VeicoloFactory {
 		// leggo gli altri dati
 		System.out.println("Indicare il tipo di modello");
 		String modello = sc.nextLine();
-		System.out.println("Indicare la velocità media");
 		float velocita = Controller.leggiFloat(sc, "Indicare la velocità media:");
 		//Creo l’oggetto specifico in base al tipo
 		if (tipoVeicolo.equalsIgnoreCase("AEREO")) {
