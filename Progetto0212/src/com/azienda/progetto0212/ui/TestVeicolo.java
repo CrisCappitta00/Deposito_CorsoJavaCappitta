@@ -42,11 +42,13 @@ public class TestVeicolo {
                     CalcolaTempi calcolo = new CalcoloTempiAereo();
                     System.out.println("\nTempo di percorrenza: " + calcolo.calcolaTempiPercorrenza(veicolo, distanza) + " ore");
                     calcolo.informazioniMovimento(veicolo);
+                    System.out.println(veicolo.toString());
 
                 } else if (veicolo instanceof Treno) {
                     CalcolaTempi calcolo = new CalcoloTempiTreno();
                     System.out.println("\nTempo di percorrenza: " + calcolo.calcolaTempiPercorrenza(veicolo, distanza) + " ore");
                     calcolo.informazioniMovimento(veicolo);
+                    System.out.println(veicolo.toString());
                 }
 
             } catch (VeicoloNonValidoException e) {
