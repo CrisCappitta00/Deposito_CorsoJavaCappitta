@@ -1,4 +1,7 @@
-package com.azienda.progetto0212.model;
+package com.azienda.progetto0212.logicaApplicativa;
+
+import com.azienda.progetto0212.model.Treno;
+import com.azienda.progetto0212.model.Veicolo;
 
 public class CalcoloTempiTreno implements CalcolaTempi {
 

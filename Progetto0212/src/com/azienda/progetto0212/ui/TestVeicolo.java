@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 import com.azienda.progetto0212.customException.VeicoloNonValidoException;
 import com.azienda.progetto0212.factory.VeicoloFactory;
+import com.azienda.progetto0212.logicaApplicativa.CalcolaTempi;
+import com.azienda.progetto0212.logicaApplicativa.CalcoloTempiAereo;
+import com.azienda.progetto0212.logicaApplicativa.CalcoloTempiTreno;
 import com.azienda.progetto0212.model.Aereo;
-import com.azienda.progetto0212.model.CalcolaTempi;
-import com.azienda.progetto0212.model.CalcoloTempiAereo;
-import com.azienda.progetto0212.model.CalcoloTempiTreno;
 import com.azienda.progetto0212.model.Treno;
 import com.azienda.progetto0212.model.Veicolo;
 import com.azienda.progetto0212.utility.Controller;
